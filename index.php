@@ -21,3 +21,13 @@
     <p>
 </body>
 </html>
+
+
+
+<ul>
+            <?php foreach ($task as $detail => $val) : ?>
+                <li>
+                    <strong><?= ucwords($detail); ?></strong> <?= $val; ?>
+                </li>
+            <?php endforeach; ?>
+        </ul>

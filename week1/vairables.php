@@ -12,7 +12,7 @@ $title = "Kerri's Awesome PHP Site";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title; ?></title>
 </head>
-<body> ength; $i++{ ?>
+<body> length; $i++{ ?>
     <li><?php echo $stuff[$1]; ?></li><?php } ?>
     </ul>
     

@@ -26,10 +26,22 @@
             }
             ?>
         </ul>
+
         <ul>
-            <?php foreach ($task as $detail => $val) : ?>
-                <li><strong><?= $detail; ?></strong> <?= $val; ?></li>
-            <?php endforeach; ?>
+                <li>
+                    <strong>Name: </strong> <?= $task['title']; ?>
+                </li>
+                <li>
+                    <strong>Due Date: </strong> <?= $task['due']; ?>
+                </li>
+                <li>
+                    <strong>Assigned: </strong> <?= $task['assigned_to']; ?>
+                </li>
+                <li>
+                    <strong>Status: </strong> <?= $task['completed'] ? 'Complete' : 'Incomplete'; ?>
+                </li> 
         </ul>
+
+
 </body>
 </html>
