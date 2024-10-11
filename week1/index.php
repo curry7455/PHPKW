@@ -1,5 +1,4 @@
 <?php
-
 $animals = [
     'Koala',
 
@@ -21,5 +20,12 @@ $task = [//title, due, assigned_to, completed
     'completed' => false
 
 ];
+require 'functions.php';
+if (checkAge(17)){
+    echo 'Come on in!';
+}
+else {
+    echo 'Sorry, you are not old enough.';
+}
 
 require 'index.view.php';
