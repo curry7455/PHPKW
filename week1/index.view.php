@@ -24,8 +24,12 @@
             foreach ($animals as $animal) {
                 echo "<li>$animal</li>";
             }
-            
             ?>
+        </ul>
+        <ul>
+            <?php foreach ($task as $detail => $val) : ?>
+                <li><strong><?= $detail; ?></strong> <?= $val; ?></li>
+            <?php endforeach; ?>
         </ul>
 </body>
 </html>
