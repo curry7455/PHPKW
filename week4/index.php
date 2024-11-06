@@ -1,27 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php include '../PHPKw/'
+<?php
+header('Location: viewPatients.php');
+exit();
