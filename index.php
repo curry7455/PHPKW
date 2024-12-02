@@ -32,6 +32,16 @@
             </ul>
         </section>
 
+        <!-- New Projects Section -->
+        <section>
+            <h3>My Projects</h3>
+            <ul>
+                <li><a href="patients/ViewPatients.php">Patient Management</a></li> <!-- Link to Patient Management -->
+                <li><a href="ATMAssignmentCode/index.php">ATM Assignment</a></li> <!-- Link to ATM Assignment Code -->
+                <!-- Add any other projects here as needed -->
+            </ul>
+        </section>
+
         <section>
             <h3>Additional Links</h3>
             <ul>
