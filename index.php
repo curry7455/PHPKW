@@ -38,7 +38,7 @@
             <ul>
                 <li><a href="patients/ViewPatients.php">Patient Management</a></li> <!-- Link to Patient Management -->
                 <li><a href="ATMAssignmentCode/index.php">ATM Assignment</a></li> <!-- Link to ATM Assignment Code -->
-                <!-- Add any other projects here as needed -->
+                <li><a href="path_to_movieverse/index.php">MovieVerse</a> - A movie database and management platform.</li>
             </ul>
         </section>
 
